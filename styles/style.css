@@ -19,6 +19,28 @@ body{
 
 /* Header */
 
+header{
+    background-image: url(../images/234990.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+header .header-title{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+header .header-title h1{
+    font-size: 55px;
+    color: #2a2a2a !important;
+}
+
 header nav{
     background: linear-gradient(135deg, #923740, #4d3279);
 }
