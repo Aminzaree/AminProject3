@@ -19,18 +19,32 @@ body{
 
 /* Header */
 
+header nav{
+    background: linear-gradient(135deg, #923740, #4d3279);
+}
+
+header nav .navbar-brand{
+    color: #00ffff;
+    transition: all 0.4s ease-in-out;
+}
+
+header nav .navbar-brand:hover{
+    color: #00b3ff;
+}
+
 header .navbar ul li a svg{
     font-size: 18px;
 }
 
-header .navbar ul li a:hover{
-    color: red !important;
+header nav ul li a:hover{
+    color: #00ffff !important;
+    background-color: rgba(73, 73, 73, 0.5);
 }
 
 /* About */
 
 #about{
-    background-image: url(../images/I\ love\ coding.jpg);
+    background-image: url(../images/399260.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +57,7 @@ header .navbar ul li a:hover{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Card */
@@ -54,4 +68,37 @@ header .navbar ul li a:hover{
 
 #card .card-content .card-item img{
     border-radius: 10px 10px 0 0;
+}
+
+/* Group Box */
+
+#group{
+    background-image: url(../images/399838.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#group .group-overlay{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#group .group-content .group-item{
+    cursor: pointer;
+    background: linear-gradient(135deg, #923740, #4d3279);
+}
+
+#group .group-content .group-item:hover{
+    background: linear-gradient(135deg, #4d3279, #923740);
+}
+
+#group .group-content .group-item a svg{
+    font-size: 45px;
+    color: #e1e1e1;
 }
