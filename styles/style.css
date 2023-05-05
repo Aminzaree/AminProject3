@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir.eot') format('eot');
+    src : url('../fonts/vazir.ttf') format('truetype'),
+    url('../fonts/vazir.woff') format('woff'),
+    url('../fonts/vazir.woff2') format('woff2');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: "vazir" !important;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header .navbar ul li a svg{
+    font-size: 18px;
+}
+
+header .navbar ul li a:hover{
+    color: red !important;
+}
+
+/* About */
+
+#about{
+    background-image: url(../images/I\ love\ coding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#about .about-overlay{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Card */
+
+#card .card-content .card-item{
+    border-radius: 10px;
+}
+
+#card .card-content .card-item img{
+    border-radius: 10px 10px 0 0;
+}
