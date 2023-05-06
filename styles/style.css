@@ -43,6 +43,7 @@ header .header-title h1{
 
 header nav{
     background: linear-gradient(135deg, #923740, #4d3279);
+    position: relative;
     z-index: 1;
 }
 
