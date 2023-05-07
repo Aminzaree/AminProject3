@@ -43,7 +43,6 @@ header .header-title h1{
 
 header nav{
     background: linear-gradient(135deg, #923740, #4d3279);
-    position: relative;
     z-index: 1;
 }
 
@@ -268,4 +267,40 @@ header nav ul li a:hover{
     #group .group-box .group-box-item:hover .group-box-text p{
         font-size: 15px;
     }
+}
+
+/* Footer */
+
+footer .footer-menu ul li a{
+    color: #c4c4c4;
+}
+
+footer .footer-menu ul li a svg{
+    font-size: 20px !important;
+    color: #c4c4c4;
+}
+
+footer .footer-menu ul li:hover a{
+    color: #fff;
+}
+
+footer .footer-menu ul li:hover a svg{
+    color: #fff;
+}
+
+footer .footer-social ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+footer .footer-social ul li a{
+
+}
+
+footer .footer-social ul li a svg{
+    font-size: 40px !important;
+}
+
+footer .footer-social ul li:hover a svg{
+    color: red;
 }
