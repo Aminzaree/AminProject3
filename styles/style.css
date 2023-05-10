@@ -83,6 +83,23 @@ header nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* Servic */
+
+#servic .servic-item ul li{
+    list-style: none;
+}
+
+#servic .servic-item ul li a svg{
+    margin-left: 15px;
+    font-size: 60px;
+}
+
+#servic .servic-item ul li p{
+    color: #c4c4c4;
+    font-size: 15px;
+}
+
+
 /* Card */
 
 #card .card-content .card-item{
